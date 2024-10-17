@@ -1,10 +1,13 @@
 const mongoose = require("mongoose");
 const express = require("express");
+const cors = require("cors");
 const bodyParser = require("body-parser");
 const indexRouter = require("./routes/index");
 
 //기본 세팅
 const app = express();
+app.use(cors());
+
 app.use(bodyParser.json());
 app.use("/api", indexRouter);
 
