@@ -1,0 +1,3 @@
+[submodule "To-do"]
+	path = To-do
+	url = https://github.com/ideal402/todo-pratice.git
