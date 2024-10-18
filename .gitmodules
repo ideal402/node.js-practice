@@ -1,0 +1,6 @@
+[submodule "To-do/back-end"]
+	path = To-do/back-end
+	url = https://github.com/ideal402/todo-back.git
+[submodule "To-do/front-end"]
+	path = To-do/front-end
+	url = https://github.com/ideal402/todo-front.git
